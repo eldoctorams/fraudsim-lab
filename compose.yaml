@@ -1,0 +1,4 @@
+services:
+  maat-forge:
+    build: .
+    volumes: ["./maat-output:/output"]

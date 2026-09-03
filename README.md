@@ -14,9 +14,15 @@
 - CI tests and GitHub Pages deployment.
 
 ```bash
-python -m pip install -e .
-maat --scenario account-takeover --events 1000 --fraud-rate .08 --seed 42
+# Works immediately after downloading the source or ZIP:
+python run.py --scenario account-takeover --events 1000 --fraud-rate .08 --seed 42
+
+# Or install the command globally:
+python -m pip install .
+maat --scenario account-takeover --events 1000
 ```
+
+Docker users can run `docker compose up --build`. The runtime has no third-party Python dependency.
 
 Outputs are written to `maat-output/events.csv` and `maat-output/manifest.json`.
 
