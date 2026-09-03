@@ -1,5 +1,7 @@
 # MAAT FORGE
 
+![MAAT FORGE live operational interface](docs/assets/maat-forge-live.jpg)
+
 > Forge the attack. Measure the defence.
 
 **MAAT FORGE** is an explainable synthetic-fraud campaign laboratory. It generates coherent accounts, devices, channels, transactions and labeled attack behavior without using customer records.
